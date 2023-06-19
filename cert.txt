@@ -1,0 +1,11 @@
+sudo mkdir /etc/ssl/my-cert
+sudo openssl req \
+> -newkey rsa:2048 -nodes -keyout cert.key \
+>  -x509 -days 365 -out cert.crt
+sudo nano /etc/nginx/sites-available/default
+
+listen 443 ssl default_server;
+         listen [::]:443 ssl default_server;
+        ssl_certificate /etc/ssl/my-cert/cert.crt;
+        ssl_certificate_key /etc/ssl/my-cert/cert.key;
+sudo systemctl restart nginx

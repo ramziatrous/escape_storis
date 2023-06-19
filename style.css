@@ -1,0 +1,233 @@
+.home{
+    background-image: url("photo/escapegame.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg{
+    background-image: url("photo/06DasGeisterschiff.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: relative;
+   top: 10px;
+   left: 30px; 
+}
+
+.nav{
+    display: inline-block;
+    height: 15%;
+    border-radius: 10px;
+}
+.nav1{
+    
+    position: relative;
+    left:120px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.p-3{
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+    height: 50%;
+    left:4%;
+    top: 10px;
+}
+.nav-item{
+    margin-left: 80px;
+}
+.box1{
+    text-align: center;
+    border: 5px solid rgb(220, 110, 0);
+    position: relative;
+    width: 50%;
+    left:25%;
+    top:20px ;
+    color: rgb(198, 240, 58);
+}
+.buchbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    top: 100px;
+    width:auto;
+}
+p{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buchung{
+    top: 400px;
+    margin: 20px;
+    background-color: rgb(240, 204, 23);
+    width: 14%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 300px;
+}
+.imgbox{
+    display:block;
+    margin: auto;
+}
+.buchung button{
+    padding: 3px;
+    left: 2px;
+}
+.map{
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+.form{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    top: 100px;
+    width:auto;
+}
+h1{text-align: center;
+
+}
+.info{
+    color: #000;
+    top: 500px;
+    margin: 20px;
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    opacity: 90%;
+    border-radius: 10px;
+    height: 650px;
+}
+a{
+    color: aliceblue;
+    text-decoration:none;
+}
+.for{
+    position: relative;
+    left: 200px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+ 
+
+  /*slide*/
+  .slides {
+	display: block;
+	width: 100%;
+}
+
+.animate-left {
+	position: relative;
+	animation: animateleft 0.8s
+}
+
+@keyframes animateleft { 
+	from { left :-500px; opacity:0 } 
+	to { left:0; opacity:1 }
+}
+
+.gutschein{
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    left: 35%;
+    top: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+.button{
+    border: 1px solid #aaa;
+    position: fixed;
+    width:70px;
+    height: 50px;
+    left: 47%;
+    top: 60%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+#reserv {
+    display: none;
+    background-color: #f1e028;
+    color: #000000;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 500px;
+    height: 600px;
+    left: 40%;
+    top: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+ }
+ #confirm-reserv {
+
+    display: block;
+  
+    color: #ffffff;
+
+    margin: auto;
+    height: 600px;
+    box-sizing: border-box;
+    text-align: center;
+   
+    
+ }
+ #confirm-reserv p{
+    font-size: large;
+    color: rgb(255, 255, 255);
+ }
+ 
+ #confirm-reserv .message {
+    text-align: center;
+ }
+ #confirm-gutschein{
+    display: none;
+ }
+#confirm {
+    display: block;
+
+    color: #000000;
+    
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    left: 40%;
+    top: 40%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+ }
+ #confirm button {
+    background-color: #7aea5e;
+    display: inline-block;
+    border-radius: 12px;
+    border: 4px solid #aaa;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+ }
+ #confirm .message {
+    text-align: center;
+ }
